@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+	<array>
+        <dict>
+            <key>PayloadDisplayName</key>
+            <string></string>
+            <key>PayloadDescription</key>
+            <string></string>
+            <key>PayloadOrganization</key>
+            <string></string>
+            <key>PayloadIdentifier</key>
+            <string></string>
+            <key>PayloadType</key>
+            <string></string>
+            <key>PayloadUUID</key>
+            <string></string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <!-- Define settings below this line -->
+        </dict>
+    </array>
+    <key>PayloadDisplayName</key>
+	<string></string>
+    <key>PayloadDescription</key>
+	<string></string>
+	<key>PayloadOrganization</key>
+	<string>CompName</string>
+	<key>PayloadIdentifier</key>
+	<string></string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string></string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+</dict>
+</plist>

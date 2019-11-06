@@ -1,0 +1,64 @@
+{
+    "name": "Application Name",
+    "publisher": "Vendor",
+    "appName": "Application Name.app",
+    "bundleId": "com.vendor.appname",
+    "lastModified": "YYYY-MM-DDTHH:mm:SSZ",
+    "currentVersion": "x.y.z",
+    "requirements": [
+        {
+            "name": "Application Bundle ID",
+            "operator": "is",
+            "value": "com.vendor.appname",
+            "type": "recon",
+            "and": false
+        }
+    ],
+    "patches": [
+        {
+            "version": "x.y.z",
+            "releaseDate": "YYYY-MM-DDTHH:mm:SSZ",
+            "standalone": true,
+            "minimumOperatingSystem": "10.9",
+            "reboot": false,
+            "killApps": [
+                {
+                    "bundleId": "com.vendor.appname",
+                    "appName": "Application Name.app"
+                }
+            ],
+            "components": [
+                {
+                    "name": "Application Name",
+                    "version": "x.y.z",
+                    "criteria": [
+                        {
+                            "name": "Application Bundle ID",
+                            "operator": "is",
+                            "value": "com.vendor.appname",
+                            "type": "recon",
+                            "and": true
+                        },
+                        {
+                            "name": "Application Version",
+                            "operator": "is",
+                            "value": "x.y.z",
+                            "type": "recon"
+                        }
+                    ]
+                }
+            ],
+            "capabilities": [
+                {
+                    "name": "Operating System Version",
+                    "operator": "greater than or equal",
+                    "value": "10.9",
+                    "type": "recon"
+                }
+            ],
+            "dependencies": []
+        }
+    ],
+    "extensionAttributes": [],
+    "id": "ApplicationName"
+}
